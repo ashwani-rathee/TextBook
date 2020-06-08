@@ -32,13 +32,25 @@ Problem:-Solving a cubic equation
 > roots ( p )
 //
 
-EX-1.17
+EX-1.18
 Problem:-Solving a BiQuadratic Equation
 //code in scilab
 > clear
 > clc
 > x = poly ([0] , 'x') ;
 > p =x^4+2*(x^3)-7*(x^2)-8*x+12
+> disp("Roots are")
+> roots ( p )
+//
+
+
+EX-1.19
+Problem:-Solving a BiQuadratic Equation
+//code in scilab
+> clear
+> clc
+> x = poly ([0] , 'x') ;
+> p =x^4-8*(x^2)+24*x+7
 > disp("Roots are")
 > roots ( p )
 //
