@@ -1,9 +1,44 @@
+
+EX-1.15
 Problem:-Solving a cubic equation
 //code in scilab
 > clear
 > clc
 > x = poly ([0] , 'x') ;
 > p =28*(x^3)-9*(x^2)+1
+> disp("Roots are")
+> roots ( p )
+//
+
+EX-1.16
+Problem:-Solving a cubic equation
+//code in scilab
+> clear
+> clc
+> x = poly ([0] , 'x') ;
+> p =(x^3)-27*x+54
+> disp("Roots are")
+> roots ( p )
+//
+
+EX-1.16-2
+Problem:-Solving a cubic equation
+//code in scilab
+> clear
+> clc
+> x = poly ([0] , 'x') ;
+> p =(x^3)-3*x^2-12*x+16
+> disp("Roots are")
+> roots ( p )
+//
+
+EX-1.17
+Problem:-Solving a BiQuadratic Equation
+//code in scilab
+> clear
+> clc
+> x = poly ([0] , 'x') ;
+> p =x^4+2*(x^3)-7*(x^2)-8*x+12
 > disp("Roots are")
 > roots ( p )
 //
